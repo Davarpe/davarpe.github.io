@@ -20,9 +20,10 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
+}
 
 .banner {
-  width: 100%; /* full screen width */
+  width: 100vw; /* full screen width */
   height: auto;
   display: block;
 }
@@ -64,8 +65,8 @@ body {
 
 header {
   background: var(--bg);
-  padding: 1.5rem 0;
-  border-bottom: 1px solid #ddd;
+  padding: 0;
+  border-bottom: none;
 }
 
 header .container {
