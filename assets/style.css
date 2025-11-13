@@ -37,6 +37,11 @@
   background-color: #00cb96; /* bright blue */
 }
 
+.spotify-container {
+  width: 40%; /* 2/5 of 100% */
+  margin: 0 auto; /* centers it horizontally */
+}
+
 
 .banner {
   width: 100vw; /* full screen width */
