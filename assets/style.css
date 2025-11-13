@@ -78,6 +78,10 @@ a:hover {
   border-radius: 12px;
 }
 
+.spotify-widget h4 {
+  padding: 0 0 0.5rem
+}
+
 @media (max-width: 768px) {
   .spotify-widget iframe {
     width: 90vw;
