@@ -55,16 +55,23 @@
 .spotify-widget {
   display: flex;
   justify-content: center;
-  width: 40vw;        /* 2/5 of screen width */
-  max-width: 500px;   /* prevent it from getting too wide */
-  margin: 0 auto;     /* center horizontally */
+  width: 40vw;        /* 2/5 of the viewport width */
+  max-width: 500px;   /* prevents it from getting too wide */
+  margin: 0 auto;     /* centers horizontally */
   text-align: center;
-  padding: 2rem 0;    /* vertical spacing */
+  padding: 4rem 0;    /* vertical spacing */
+}
+
+.spotify-widget iframe {
+  width: 100%;        /* iframe fills the widget container */
+  height: 352px;      /* fixed height for Spotify embeds */
+  border-radius: 12px; /* optional: rounded corners */
 }
 
 
+
 @media (max-width: 768px) { /* this makes the spotify widget go full-width on smaller screens */
-  .spotify-container {
+  .spotify-widget {
     width: 90vw;
   }
 }
