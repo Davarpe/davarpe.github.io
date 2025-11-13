@@ -22,6 +22,14 @@
   font-display: swap;
 }
 
+.stream-icon {
+  width: 45px;
+  height: auto;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+
+
 .banner {
   width: 100vw; /* full screen width */
   height: auto;
