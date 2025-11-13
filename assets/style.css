@@ -55,16 +55,13 @@
 .spotify-widget {
   display: flex;
   justify-content: center;
-  padding: 4rem 0;
+  width: 40vw;        /* 2/5 of screen width */
+  max-width: 500px;   /* prevent it from getting too wide */
+  margin: 0 auto;     /* center horizontally */
+  text-align: center;
+  padding: 2rem 0;    /* vertical spacing */
 }
 
-.spotify-container {
-  width: 40vw; /* 2/5 of 100% */
-  max-width: 500px;
-  margin: 0 auto; /* centers it horizontally */
-  text-align: center;
-  padding: 4rem 0;
-}
 
 @media (max-width: 768px) { /* this makes the spotify widget go full-width on smaller screens */
   .spotify-container {
