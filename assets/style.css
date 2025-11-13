@@ -42,6 +42,10 @@ a:hover {
   transition: color 0.3s ease; /* smooth fade */
 }
 
+a: {
+  color: #111;
+  }
+
 .stream-icon {
   width: 60px;
   height: auto;
@@ -150,7 +154,7 @@ nav a:hover {
 }
 
 .hero {
-  padding: 2rem 0 2rem;
+  padding: 4rem 0 2rem;
   text-align: center;
 }
 
