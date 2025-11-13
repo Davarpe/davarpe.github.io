@@ -22,7 +22,7 @@
   font-display: swap;
 
 .banner {
-  width: 100vw; /* full screen width */
+  width: 100%; /* full screen width */
   height: auto;
   display: block;
 }
