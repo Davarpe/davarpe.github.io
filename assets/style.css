@@ -20,7 +20,14 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
+
+.banner {
+  width: 100vw; /* full screen width */
+  height: auto;
+  display: block;
 }
+
+/* código original de chatgpt*/
 
 :root {
   --bg: #f9f9f9;
@@ -37,6 +44,7 @@
 }
 
 body {
+  margin: 0; /* margen superior 0, añadido al codigo original de ChatGPT */
   font-family: 'Comfortaa', 'Inter', sans-serif;
   background: var(--bg);
   color: var(--text);
