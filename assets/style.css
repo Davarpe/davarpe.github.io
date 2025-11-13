@@ -37,14 +37,20 @@
   background-color: #00cb96; /* bright blue */
 }
 
-a:hover {
-  color: #00cb96; /* bright blue text */
-  transition: color 0.3s ease; /* smooth fade */
+a {
+  text-decoration: none;
+  color: var(--accent); /* dark gray */
 }
 
-a: {
-  color: #111;
-  }
+a:visited {
+  color: var(--accent); /* override purple */
+}
+
+a:hover {
+  color: #00cb96; /* bright blue-green */
+  transition: color 0.3s ease;
+}
+
 
 .stream-icon {
   width: 60px;
