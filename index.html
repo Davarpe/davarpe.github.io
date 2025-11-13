@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>davarpe</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">davarpe</h1>
+      <nav>
+        <a href="#about">about</a>
+        <a href="#playlists">playlists</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>music, design, and the spaces in between</h2>
+        <p>Curated sounds and visual explorations by <strong>davarpe</strong>. A blend of rhythm, texture, and architecture — built slowly, intentionally.</p>
+        <a href="#playlists" class="btn">explore playlists</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container narrow">
+        <h3>about</h3>
+        <p>
+          I’m <strong>David Ariza</strong>, an architect and musician based in CDMX. I explore how rhythm, materiality, and spatial thinking can converge in sound.
+          <br><br>
+          This space gathers my ongoing experiments — from weekly playlists to monthly selections and audiovisual pieces.
+        </p>
+      </div>
+    </section>
+
+    <section id="playlists" class="playlists">
+      <div class="container">
+        <h3>playlists</h3>
+        <div class="grid">
+          <a href="#" class="card">
+            <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?auto=format&fit=crop&w=600&q=60');"></div>
+            <div class="text">
+              <h4>Finally Friday · 11·25</h4>
+              <p>Weekly vibes curated for focus and flow.</p>
+            </div>
+          </a>
+
+          <a href="#" class="card">
+            <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=600&q=60');"></div>
+            <div class="text">
+              <h4>10·25</h4>
+              <p>October’s sonic palette — warm, layered, subtle.</p>
+            </div>
+          </a>
+
+          <a href="#" class="card">
+            <div class="thumb" style="background-image:url('https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=600&q=60');"></div>
+            <div class="text">
+              <h4>Finally Friday · archive</h4>
+              <p>Past weeks, evolving moods, same energy.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container narrow">
+      <p>connect with me:</p>
+      <div class="social">
+        <a href="https://open.spotify.com/artist" target="_blank">Spotify</a>
+        <a href="https://soundcloud.com/" target="_blank">SoundCloud</a>
+        <a href="https://instagram.com/davarpe" target="_blank">Instagram</a>
+      </div>
+      <p class="small">© <span id="year"></span> davarpe — all rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
