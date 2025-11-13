@@ -37,8 +37,15 @@
   background-color: #00cb96; /* bright blue */
 }
 
+.spotify-widget {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
 .spotify-container {
-  width: 40%; /* 2/5 of 100% */
+  width: 40vw; /* 2/5 of 100% */
+  max-width: 500px;
   margin: 0 auto; /* centers it horizontally */
   text-align: center;
   padding: 4rem 0;
@@ -46,7 +53,7 @@
 
 @media (max-width: 768px) { /* this makes the spotify widget go full-width on smaller screens */
   .spotify-container {
-    width: 100%;
+    width: 90vw;
   }
 }
 
