@@ -1,22 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<style>
-  /* Override only for this page */
-  .btn {
-    color: #fff; /* white text by default */
-  }
-  .btn:hover {
-    color: #00cb96; /* bright blue-green */
-    transition: color 0.3s ease;
-  }
-</style>
-
-
 <head>
   <meta charset="UTF-8">
   <title>We have to talk before moving to Spotify...</title>
   <link rel="stylesheet" href="assets/style.css">
+
+  <!-- Page-specific overrides -->
   <style>
     body {
       display: flex;
@@ -31,8 +20,8 @@
     }
     .btn {
       display: inline-block;
-      background: var(--accent);
-      color: #fff;
+      background: #00cb96;   /* force bright background */
+      color: #fff;           /* force white text */
       text-decoration: none;
       padding: 0.75rem 1.5rem;
       border-radius: var(--radius);
@@ -40,7 +29,8 @@
       margin-top: 2rem;
     }
     .btn:hover {
-      background: #00cb96;
+      background: #008f6b;   /* darker green on hover */
+      color: #fff;           /* keep text white */
     }
   </style>
 </head>
@@ -49,13 +39,13 @@
   <p></p>
   <p>I have been there, but after some thought, like you, I decided to move forward.<p></p>Let me share with you some tools that helped me move away from this platform to another one that does not support the genocide of the Palestinian people.</p>
   <p></p>
-  <p></p>
   <p>
     <a href="https://www.tunemymusic.com/" target="_blank">Tune my music (the one I used)</a> ·
     <a href="https://soundiiz.com/es/" target="_blank">Soundiiz</a> ·
     <a href="https://www.songshift.com/" target="_blank">Song shift</a>
   </p>
-  <p></p>
-  <a href="https://open.spotify.com/artist/6ds8tmDh0ZEDJCX88GAYvw" target="_blank" class="btn">If you still want to move forward into Spotify, this is the button</a>
+  <a href="https://open.spotify.com/artist/6ds8tmDh0ZEDJCX88GAYvw" target="_blank" class="btn">
+    If you still want to move forward into Spotify, this is the button
+  </a>
 </body>
 </html>
