@@ -12,16 +12,18 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
       background: var(--bg);
       color: var(--text);
       font-family: 'Comfortaa', 'Inter', sans-serif;
       text-align: center;
+      margin: 0;
     }
+
     .btn {
       display: inline-block;
-      background: #a42748;   /* force red background */
-      color: #be0032;           /* force red text */
+      background: #a42748;   /* red background */
+      color: #fff;           /* white text */
       text-decoration: none;
       padding: 0.75rem 1.5rem;
       border-radius: var(--radius);
@@ -30,28 +32,26 @@
     }
     .btn:hover {
       background: #741c33;   /* darker red on hover */
-      color: #a4002b;           /* red text */
+      color: #fff;           /* keep white text */
     }
+
     /* Default link color */
     a {
-      color: #27a483; /* more grey */
+      color: #27a483; /* teal/grey */
       text-decoration: none;
     }
-
-    /* Hover state */
     a:hover {
-      color: #00cb96; /* bright blue-green */
-      text-decoration: underline; /* optional */
+      color: #00cb96; /* bright green */
+      text-decoration: underline;
+    }
+    a:visited {
+      color: #00553f; /* darker green */
     }
 
-    /* Visited (clicked) state */
-    a:visited {
-      color: #00553f; /* darker */
-    }
-        .content {
+    .content {
       width: 60%;          /* 3/5 of the screen */
       margin: 0 auto;      /* center horizontally */
-      text-align: left;    /* keep text aligned nicely */
+      text-align: center;  /* center text and inline elements */
     }
 
     /* For smaller screens (phones/tablets) */
@@ -60,20 +60,24 @@
         width: 80%;        /* 4/5 of the screen */
       }
     }
+
+    h2, p {
+      margin-bottom: 1.5rem; /* spacing between blocks */
+    }
   </style>
 </head>
 <body>
   <div class="content">
     <h2>I know it is hard to leave Spotify after using it for so long...</h2>
-    <br><br>
-    <p>I have been there, but after some thought, like you, I decided to move forward.<p></p>Let me share with you some tools that helped me move away from this platform to another one that does not support the genocide of the Palestinian people.</p>
-    <br><br>
+
+    <p>I have been there, but after some thought, like you, I decided to move forward. Let me share with you some tools that helped me move away from this platform to another one that does not support the genocide of the Palestinian people.</p>
+
     <p>
       <a href="https://www.tunemymusic.com/" target="_blank">Tune my music (the one I used)</a> ·
       <a href="https://soundiiz.com/es/" target="_blank">Soundiiz</a> ·
       <a href="https://www.songshift.com/" target="_blank">Song shift</a>
     </p>
-    <br><br>
+
     <a href="https://open.spotify.com/artist/6ds8tmDh0ZEDJCX88GAYvw" target="_blank" class="btn">
       If you still want to move forward into Spotify, this is the button
     </a>
