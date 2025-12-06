@@ -20,49 +20,52 @@
       margin: 0;
     }
 
-    .btn {
+    /* Button-specific styles */
+    a.btn {
       display: inline-block;
-      background: #a42748;   /* red background */
-      color: #fff;           /* white text */
+      background: #a42748;
+      color: #fff !important;           /* force white text */
       text-decoration: none;
       padding: 0.75rem 1.5rem;
       border-radius: var(--radius);
       transition: background 0.3s ease;
       margin-top: 2rem;
     }
-    .btn:hover {
-      background: #741c33;   /* darker red on hover */
-      color: #fff;           /* keep white text */
+
+    a.btn:hover {
+      background: #741c33;
+      color: #fff !important;           /* keep white text on hover */
     }
 
-    /* Default link color */
+    /* Default link styles */
     a {
-      color: #27a483; /* teal/grey */
+      color: #27a483;
       text-decoration: none;
     }
+
     a:hover {
-      color: #00cb96; /* bright green */
+      color: #00cb96;
       text-decoration: underline;
     }
+
     a:visited {
-      color: #00553f; /* darker green */
+      color: #00553f;
     }
 
     .content {
-      width: 60%;          /* 3/5 of the screen */
-      margin: 0 auto;      /* center horizontally */
-      text-align: center;  /* center text and inline elements */
+      width: 60%;
+      margin: 0 auto;
+      text-align: center;
     }
 
-    /* For smaller screens (phones/tablets) */
     @media (max-width: 768px) {
       .content {
-        width: 80%;        /* 4/5 of the screen */
+        width: 80%;
       }
     }
 
     h2, p {
-      margin-bottom: 1.5rem; /* spacing between blocks */
+      margin-bottom: 1.5rem;
     }
   </style>
 </head>
