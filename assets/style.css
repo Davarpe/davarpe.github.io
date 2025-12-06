@@ -67,23 +67,23 @@ a:hover {
   background-color: #00cb96; /* bright blue */
 }
 
-.spotify-widget {
+.music-widget {
   text-align: center;
   padding: 4rem 0;
 }
 
-.spotify-widget iframe {
+.music-widget iframe {
   width: 40vw;        /* 2/5 of the viewport width */
   max-width: 500px;   /* prevent it from getting too wide */
   border-radius: 12px;
 }
 
-.spotify-widget h4 {
+.music-widget h4 {
   padding: 0 0 0.5rem
 }
 
 @media (max-width: 768px) {
-  .spotify-widget iframe {
+  .music-widget iframe {
     width: 90vw;
     max-width: none;
   }
