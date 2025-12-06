@@ -48,6 +48,18 @@
     a:visited {
       color: #00553f; /* darker */
     }
+        .content {
+      width: 60%;          /* 3/5 of the screen */
+      margin: 0 auto;      /* center horizontally */
+      text-align: left;    /* keep text aligned nicely */
+    }
+
+    /* For smaller screens (phones/tablets) */
+    @media (max-width: 768px) {
+      .content {
+        width: 80%;        /* 4/5 of the screen */
+      }
+    }
   </style>
 </head>
 <body>
